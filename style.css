@@ -1,0 +1,80 @@
+
+body {
+      background-color: rgba(244, 164, 96, 0.5);
+}
+section {
+      padding: 60px 0;
+}
+
+.custom-image {
+      width: 1000px;
+      height: 700px;
+}
+
+.customize-bg {
+      position: relative;
+      z-index: -1;
+      height: 500px;
+      width: 500px;
+      top: -500px;
+}
+
+.sushi-logo-1 {
+      height: 75px;
+      width: 75px;
+}
+
+.card-borders {
+      border-radius: 10%;
+}
+
+.gallery-pic {
+      width: 250px;
+      height: 200px;
+}
+
+.bg-sushi {
+      position: absolute;
+      left: -100px;
+      height: 250px;
+}
+
+.bg-sushi-2 {
+      position: absolute;
+      left: 100px;
+      top: 720px;
+      height: 300px;
+      width: 750px;
+}
+
+.bg-sushi-fighter {
+      position: absolute;
+      top: 1300px;
+      left: 0;
+      height: 500px;
+}
+
+.bg-sushi-fighter-2 {
+      position: absolute;
+      right: 0;
+      top: 1300px;
+      height: 500px;
+}
+  
+@media screen and (max-width: 800px) {
+      .bg-sushi{
+            position: absolute;
+            top: 50px;          
+           height: 150px;
+      }
+      .bg-sushi-fighter{
+            display: none;
+      }
+      .bg-sushi-fighter-2{
+            display: none;
+      }
+
+      .bg-sushi-2 {
+            display: none;
+      }
+}
